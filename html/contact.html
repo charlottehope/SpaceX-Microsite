@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>SpaceX Microsite │ Contact Us</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Description" content="Do you want to know more about our SpaceX program? Feel free to contact us with any questions you might have."/>
+        <meta name="keywords" content="spacex, rockets, spaceships, launches, launch pads, contact, space, microsite, falcon, nasa, challenger, falcon heavy, science, launch sites, noroff, exam, front end development"/>
+        <meta name="author" content="Charlotte Hope">
+		<link href="../css/styles.css" type="text/css" rel="stylesheet" media="screen, projection"/>
+	</head>
+	<body>
+        <div class="full-page-background" id="contact-background">
+            <section class="header">
+                <a href="index.html"><img src="../images/logo-white.png" alt="SpaceX logo in white"></a>
+                <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+			    <input type="checkbox" id="hamburger-menu">
+                <nav>
+                    <ul>
+                        <a href="index.html"><li>home</li></a>
+                        <a class="active" href="contact.html"><li>contact</li></a>
+                        <a href="launches.html"><li>launches</li></a>
+                        <a href="launchpads.html"><li>launch pads</li></a>
+                        <a href="rockets.html"><li>rockets</li></a>
+                    </ul>
+                </nav>
+            </section>
+            <section class="main-content-container">
+                <h1>contact us</h1>
+                <h2>Want to learn more about SpaceX?<br>Ask us anything.</h2>
+                <div class="form">   
+                    <form id="contactForm">
+                        <div id="form-success"></div>
+
+                        <label for="firstname">First name:</label>
+                        <div class="form-error" id="firstNameError">Please enter your first name</div>
+                        <input id="firstName" class="small-input" type="text" name="firstname">
+
+                        <label for="lastname">Last name:</label>
+                        <div class="form-error" id="lastNameError">Please enter your last name</div>
+                        <input id="lastName" class="small-input" type="text" name="lastname">
+                        
+                        <label for="email">Email address:</label>
+                        <div class="form-error" id="emailAddressError">Please enter a valid email address</div>
+                        <input id="emailAddress" class="small-input" type="text" name="email">
+                        
+                        <label for="message">Message:</label>
+                        <div class="form-error" id="messageError">Your message must contain at least 10 characters</div>
+                        <textarea id="message" class="big-input" type="text" name="message"></textarea>
+                        
+                        <input type="submit" value="Submit">
+                    </form>
+                </div> 
+            </section>
+        </div>
+		<footer>
+            <section class="upper-footer-container">
+                <div class="upper-footer-item">
+                    <a href="index.html"><img src="../images/logo-white.png" alt="SpaceX logo in white"></a>
+                </div>
+                <div class="upper-footer-item">
+                    <section class="footer-grid">
+                        <div class="footer-column">
+                            <ul class="footer-list">
+                                <a href="index.html"><li>Home</li></a>
+                                <a href="contact.html"><li>Contact</li></a>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <ul class="footer-list">
+                                <a href="launches.html"><li>Launches</li></a>
+                                <a href="launchpads.html"><li>Launch pads</li></a>
+                                <a href="rockets.html"><li>Rockets</li></a>
+                        </div>
+                        <div class="footer-column">
+                            <ul class="footer-list">
+                                <a href="https://www.spacex.com/"><li>SpaceX</li></a>
+                                <a href="https://www.nasa.gov/"><li>NASA</li></a>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <div class="divider"></div>
+            <section class="social-media">
+                <a href="https://www.instagram.com/spacex/"><img src="../images/instagram.png" alt="Instagram logo"></a>
+                <a href="https://www.linkedin.com/company/spacex"><img src="../images/linkedin.png" alt="LinkedIn logo"></a>
+                <a href="https://twitter.com/spacex"><img src="../images/twitter.png" alt="Twitter logo"></a>
+                <a href="https://www.youtube.com/spacex"><img src="../images/youtube.png" alt="YouTube logo"></a>
+            </section>
+            <div class="disclaimer">
+                <p>This site has been designed and developed by Charlotte Hope as an exam project at Noroff School of Technology and Digital Media.</p>
+            </div>
+		</footer>
+        <script src="../js/contact.js"></script>
+        <script src="https://kit.fontawesome.com/60f702f010.js" crossorigin="anonymous"></script>
+	</body>
+</html>
