@@ -1,7 +1,7 @@
 # Project Exam 1 Charlotte Hope - SpaceX-Microsite
 
 #### Frontpage
-<img width="700" alt="spacex1" src="https://github.com/charlottehope/SpaceX-Microsite/assets/65370439/1adbcfe8-74c4-4517-a49d-4c4a9c9c033c">
+<img width="1728" alt="spacex1" src="https://github.com/charlottehope/SpaceX-Microsite/assets/65370439/ac2ea8d4-dbf9-4869-9cfc-9aeef2cdd49a">
 
 #### Launches
 <img width="1728" alt="spacex2" src="https://github.com/charlottehope/SpaceX-Microsite/assets/65370439/0fef9f61-b66e-4b0b-825d-38a53c0c2845">
